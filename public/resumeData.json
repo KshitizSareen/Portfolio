@@ -2,9 +2,9 @@
   "main": {
     "name":"Kshitiz Sareen",
     "description":"Software Engineer | CS Graduate Student | Professor of CSC-210 at SFSU",
-    "image":"profilepic.jpg",
+    "image":"Final final.jpeg",
     "bio":"I'm a graduate student pursuing Computer Science at San Francisco State University. I have worked as a software engineer for over one year at Synoptek, mainly working with Microsoft Dynamics CRM. As a student with an outstanding GPA of 3.96, I am one of the few students selected to be a professor for Introduction To Programming at San Francisco State University. I am pursuing my research in data visualization, analytics, and machine learning.",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "contactmessage":"Let's Connect!",
     "email": "kshitizsareen709@gmail.com",
     "phone": "+1 (415)-996-4289",
     "github":"https://github.com/nordicgiant2/react-nice-resume",
@@ -19,30 +19,26 @@
     "resumedownload":"https://drive.google.com/file/d/1HdtKZueh0Lw_ZdaIZad6xwBEzCYPnPG8/view?usp=sharing",
     "social":[
       {
-        "name":"facebook",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
-        "className":"fa fa-facebook"
-      },
-      {
         "name":"twitter",
-        "url":"http://twitter.com",
+        "url":"https://twitter.com/kshitiz075",
         "className":"fa fa-twitter"
       },
       {
         "name":"linkedin",
-        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
+        "url":"https://www.linkedin.com/in/kshitiz-sareen-6783879a/",
         "className":"fa fa-linkedin"
       },
       {
         "name":"instagram",
-        "url":"http://instagram.com/tbaker_x",
+        "url":"https://www.instagram.com/kshitizsareen/",
         "className":"fa fa-instagram"
       },
       {
         "name":"github",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
+        "url":"https://github.com/KshitizSareen",
         "className":"fa fa-github"
       }
+
     ]
   },
   "resume":{
@@ -66,10 +62,9 @@
         "company":"Synoptek",
         "title":"Software Engineer",
         "years":"Jan 2020 - July 2021",
-        "description1":"Developed approximately 7 modules for more than 13 projects by building plugins and web resources using C# and JavaScript.",
-        "description2":"Enhanced productivity of over 15 solution engineers by shipping continuous improvements to Microsoft Dynamics CRM technologies.",
-        "description3":"Collaborated with over 6 teams to understand common customer problems and build solutions that tackle them.",
-        "description4":"Reduced development periods by over 2 months by building reusable tools that manage data and optimize business processes."
+        "description1":"Built over 100 functionalities for more than 13 projects by developing customized applications for Microsoft Dynamics CRM.",
+        "description2":"Collaborated with engineers and stakeholders from 6 different teams to build solutions that optimize business processes.",
+        "description3":"Enhanced productivity of over 15 Microsoft Dynamics CRM consultants by building plugins and web resources using C# and JavaScript."
       },
       {
         "company":"San Francisco State University",
@@ -150,82 +145,46 @@
       },
       {
         "name":"Microsoft Windows"
+      },
+      {
+        "name":"Android"
+      },
+      {
+        "name":"IOS"
       }
     ]
   },
   "portfolio":{
     "projects": [
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"01.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "title":"AQI Visualizer",
+        "image":"AQI Visualizer.png",
+        "url":"https://ecohacks-361600.wl.r.appspot.com/"
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"02.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title":"Sports News Web Application",
+        "image":"Sports News Web Application.png",
+        "url":"http://34.136.124.189:3000/"
       },
       {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"03.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+        "title":"React-Native-Image-Filter-Android",
+        "image":"React-Native-Image-Filter-Android.png",
+        "url":"https://www.npmjs.com/package/react-native-image-filter-android"
       },
       {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"04.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title":"React-Native-Build-Charts",
+        "image":"React-Native-Build-Charts.png",
+        "url":"https://www.npmjs.com/package/react-native-build-charts"
       },
       {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"05.jpg",
-        "url":"http://www.smirkspace.com"
+        "title":"React-Native-Send-Receive-Sms-Android",
+        "image":"React-Native-Send-Receive-Sms-Android.png",
+        "url":"https://www.npmjs.com/package/react-native-send-receive-sms-android"
       },
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"06.jpg",
-        "url":"https://www.canadianwanderlust.com"
-      },
-      {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"01.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"02.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"03.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"04.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"05.jpg",
-        "url":"http://www.smirkspace.com"
-      },
-      {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"06.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "title":"Music Instrument Visualizer",
+        "image":"Music Instrument Visualizer.png",
+        "url":"https://kshitizsareen.github.io/CSC-600-Website/"
       }
     ]
   }

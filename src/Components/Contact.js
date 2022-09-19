@@ -1,7 +1,22 @@
 import React, { Component } from "react";
 import { Fade, Slide } from "react-reveal";
+import emailjs from 'emailjs-com';
+
 
 class Contact extends Component {
+
+  constructor()
+  {
+    super();
+    this.state={
+      name: "",
+      email: "",
+      subject: "",
+      message: "",
+    }
+  }
+
+
   render() {
     if (!this.props.data) return null;
 
@@ -32,7 +47,6 @@ class Contact extends Component {
         <div className="row">
           <Slide left duration={1000}>
             <div className="eight columns">
-              <form action="" method="post" id="contactForm" name="contactForm">
                 <fieldset>
                   <div>
                     <label htmlFor="contactName">
@@ -44,7 +58,10 @@ class Contact extends Component {
                       size="35"
                       id="contactName"
                       name="contactName"
-                      onChange={this.handleChange}
+                      value={this.state.name}
+                      onChange={(e)=>{
+                        this.setState({name: e.target.value});
+                      }}
                     />
                   </div>
 
@@ -58,7 +75,10 @@ class Contact extends Component {
                       size="35"
                       id="contactEmail"
                       name="contactEmail"
-                      onChange={this.handleChange}
+                      value={this.state.email}
+                      onChange={(e)=>{
+                        this.setState({email: e.target.value});
+                      }}
                     />
                   </div>
 
@@ -70,7 +90,10 @@ class Contact extends Component {
                       size="35"
                       id="contactSubject"
                       name="contactSubject"
-                      onChange={this.handleChange}
+                      value={this.state.subject}
+                      onChange={(e)=>{
+                        this.setState({subject: e.target.value});
+                      }}
                     />
                   </div>
 
@@ -83,17 +106,38 @@ class Contact extends Component {
                       rows="15"
                       id="contactMessage"
                       name="contactMessage"
+                      value={this.state.message}
+                      onChange={(e)=>{
+                        this.setState({message: e.target.value});
+                      }}
                     ></textarea>
                   </div>
 
                   <div>
-                    <button className="submit">Submit</button>
+                    <button className="submit" onClick={(e)=>{
+                      emailjs.send('service_xrxfdko', 'template_siy0bnd', {
+                        subject: this.state.subject,
+                        message: this.state.message,
+                        name: this.state.name,
+                        email : this.state.email
+                      }, 'Tpa9ljF52pN03oNpg')
+                      .then((result) => {
+                         alert("Email sent");
+                         this.setState({
+                          subject:"",
+                          message:"",
+                          name:"",
+                          email:""
+                         }) //This is if you still want the page to reload (since e.preventDefault() cancelled that behavior) 
+                      }, (error) => {
+                          console.log(error.text);
+                      });
+                    }}>Submit</button>
                     <span id="image-loader">
                       <img alt="" src="images/loader.gif" />
                     </span>
                   </div>
                 </fieldset>
-              </form>
 
               <div id="message-warning"> Error boy</div>
               <div id="message-success">
@@ -115,35 +159,6 @@ class Contact extends Component {
                   <br />
                   <span>{phone}</span>
                 </p>
-              </div>
-
-              <div className="widget widget_tweets">
-                <h4 className="widget-title">Latest Tweets</h4>
-                <ul id="twitter">
-                  <li>
-                    <span>
-                      This is Photoshop's version of Lorem Ipsum. Proin gravida
-                      nibh vel velit auctor aliquet. Aenean sollicitudin, lorem
-                      quis bibendum auctor, nisi elit consequat ipsum
-                      <a href="./">http://t.co/CGIrdxIlI3</a>
-                    </span>
-                    <b>
-                      <a href="./">2 Days Ago</a>
-                    </b>
-                  </li>
-                  <li>
-                    <span>
-                      Sed ut perspiciatis unde omnis iste natus error sit
-                      voluptatem accusantium doloremque laudantium, totam rem
-                      aperiam, eaque ipsa quae ab illo inventore veritatis et
-                      quasi
-                      <a href="./">http://t.co/CGIrdxIlI3</a>
-                    </span>
-                    <b>
-                      <a href="./">3 Days Ago</a>
-                    </b>
-                  </li>
-                </ul>
               </div>
             </aside>
           </Slide>
