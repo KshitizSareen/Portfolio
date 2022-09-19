@@ -1,0 +1,191 @@
+{
+  "main": {
+    "name":"Kshitiz Sareen",
+    "description":"Software Engineer | CS Graduate Student | Professor of CSC-210 at SFSU",
+    "image":"Final final.jpeg",
+    "bio":"I'm a graduate student pursuing Computer Science at San Francisco State University. I have worked as a software engineer for over one year at Synoptek, mainly working with Microsoft Dynamics CRM. As a student with an outstanding GPA of 3.96, I am one of the few students selected to be a professor for Introduction To Programming at San Francisco State University. I am pursuing my research in data visualization, analytics, and machine learning.",
+    "contactmessage":"Let's Connect!",
+    "email": "kshitizsareen709@gmail.com",
+    "phone": "+1 (415)-996-4289",
+    "github":"https://github.com/nordicgiant2/react-nice-resume",
+    "project":"https://github.com/nordicgiant2/react-nice-resume",
+    "address":{
+      "street":"235 Vernon Street",
+      "city":"San Francisco",
+      "state":"California",
+      "zip": "94132"
+    },
+    "website": "http://www.timbakerdev.com",
+    "resumedownload":"https://drive.google.com/file/d/1HdtKZueh0Lw_ZdaIZad6xwBEzCYPnPG8/view?usp=sharing",
+    "social":[
+      {
+        "name":"twitter",
+        "url":"https://twitter.com/kshitiz075",
+        "className":"fa fa-twitter"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/kshitiz-sareen-6783879a/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"https://www.instagram.com/kshitizsareen/",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/KshitizSareen",
+        "className":"fa fa-github"
+      }
+
+    ]
+  },
+  "resume":{
+    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "education":[
+      {
+        "school":"San Francisco State University",
+        "degree":"Masters in Computer Science",
+        "graduated":"Aug 2021 - May 2023",
+        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+      },
+      {
+        "school":"Dhirubhai Ambani Institute of Information and Communication Technology",
+        "degree":"Bachelors in Information and Communication Technology",
+        "graduated":"Aug 2016 - May 2020",
+        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+      }
+    ],
+    "work":[
+      {
+        "company":"Synoptek",
+        "title":"Software Engineer",
+        "years":"Jan 2020 - July 2021",
+        "description1":"Built over 100 functionalities for more than 13 projects by developing customized applications for Microsoft Dynamics CRM.",
+        "description2":"Collaborated with engineers and stakeholders from 6 different teams to build solutions that optimize business processes.",
+        "description3":"Enhanced productivity of over 15 Microsoft Dynamics CRM consultants by building plugins and web resources using C# and JavaScript."
+      },
+      {
+        "company":"San Francisco State University",
+        "title":"Graduate Teaching Assistant, CSC 210 – Introduction to Programming",
+        "years":"Aug 2022 - Present",
+        "description1":"Introduced programming concepts to a class of 50 students by teaching them the Java programming language.",
+        "description2":"Increased class participation and passing rate by 30% by initiating mentorship programs for student development.",
+        "description3":"Helped students practice programming by creating 10 weekly assignments, 3 class projects, 2 exams, and 5 quizzes."
+      }
+    ],
+    "ProgrammingSkills":[
+      {
+        "name":"Python"
+      },
+      {
+        "name":"Java"
+      },
+      {
+        "name":"JavaScript"
+      },
+      {
+        "name":"TypeScript"
+      },
+      {
+        "name":"C"
+      },
+      {
+        "name":"C++"
+      },
+      {
+        "name":"C#"
+      },
+      {
+        "name":"SQL"
+      },
+      {
+        "name":"HTML"
+      },
+      {
+        "name":"CSS"
+      },
+      {
+        "name":"Swift"
+      }
+    ],
+    "tools":[
+      {
+        "name":"React.js"
+      },
+      {
+        "name":"React-Native"
+      },
+      {
+        "name":"Node.js"
+      },
+      {
+        "name":"MySQL"
+      },
+      {
+        "name":"Google Cloud"
+      },
+      {
+        "name":"GitHub"
+      },
+      {
+        "name":"VS Code"
+      }
+    ],
+    "systems":[
+      {
+        "name":"Unix"
+      },
+      {
+        "name":"Linux"
+      },
+      {
+        "name":"macOS"
+      },
+      {
+        "name":"Microsoft Windows"
+      },
+      {
+        "name":"Android"
+      },
+      {
+        "name":"IOS"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"AQI Visualizer",
+        "image":"AQI Visualizer.png",
+        "url":"https://ecohacks-361600.wl.r.appspot.com/"
+      },
+      {
+        "title":"Sports News Web Application",
+        "image":"Sports News Web Application.png",
+        "url":"http://34.136.124.189:3000/"
+      },
+      {
+        "title":"React-Native-Image-Filter-Android",
+        "image":"React-Native-Image-Filter-Android.png",
+        "url":"https://www.npmjs.com/package/react-native-image-filter-android"
+      },
+      {
+        "title":"React-Native-Build-Charts",
+        "image":"React-Native-Build-Charts.png",
+        "url":"https://www.npmjs.com/package/react-native-build-charts"
+      },
+      {
+        "title":"React-Native-Send-Receive-Sms-Android",
+        "image":"React-Native-Send-Receive-Sms-Android.png",
+        "url":"https://www.npmjs.com/package/react-native-send-receive-sms-android"
+      },
+      {
+        "title":"Music Instrument Visualizer",
+        "image":"Music Instrument Visualizer.png",
+        "url":"https://kshitizsareen.github.io/CSC-600-Website/"
+      }
+    ]
+  }
+}
