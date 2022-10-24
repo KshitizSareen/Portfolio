@@ -21,13 +21,6 @@ class About extends Component {
         <Fade duration={1000}>
           <div className="row">
             <div className="three columns">
-              <img
-              style={{
-                borderRadius: 50
-              }}
-                src={profilepic}
-                alt="Nordic Giant Profile Pic"
-              />
             </div>
             <div className="nine columns main-col">
               <h2>About Me</h2>
