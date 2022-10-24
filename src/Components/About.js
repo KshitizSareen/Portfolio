@@ -22,7 +22,9 @@ class About extends Component {
           <div className="row">
             <div className="three columns">
               <img
-                className="profile-pic"
+              style={{
+                borderRadius: 50
+              }}
                 src={profilepic}
                 alt="Nordic Giant Profile Pic"
               />
