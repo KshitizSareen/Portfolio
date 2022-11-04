@@ -185,6 +185,11 @@
         "title":"Music Instrument Visualizer",
         "image":"Music Instrument Visualizer.png",
         "url":"https://kshitizsareen.github.io/CSC-600-Website/"
+      },
+      {
+        "title":"React-Native-Slice-Image",
+        "image":"reactnativesliceimage.png",
+        "url":"https://www.npmjs.com/package/react-native-slice-image"
       }
     ]
   }
