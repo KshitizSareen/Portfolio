@@ -62,9 +62,9 @@
         "company":"Synoptek",
         "title":"Software Engineer",
         "years":"Jan 2020 - July 2021",
-        "description1":"Built over 100 functionalities for more than 13 projects by developing customized applications for Microsoft Dynamics CRM.",
-        "description2":"Collaborated with engineers and stakeholders from 6 different teams to build solutions that optimize business processes.",
-        "description3":"Enhanced productivity of over 15 Microsoft Dynamics CRM consultants by building plugins and web resources using C# and JavaScript."
+        "description1":"Increased profitability and customer connectivity of 6 companies by developing applications and products based on Microsoft Dynamics CRM.",
+        "description2":"Collaborated with engineers and product managers to build over 300 UI and data processing components using C#, JavaScript, and the .NET framework.",
+        "description3":"Enhanced productivity of over 15 solution engineers by building reusable CRM services, including visualizations, data processing, and data integration services."
       },
       {
         "company":"San Francisco State University",
@@ -131,6 +131,9 @@
       },
       {
         "name":"VS Code"
+      },
+      {
+        "name":"AWS"
       }
     ],
     "systems":[
@@ -185,6 +188,16 @@
         "title":"Music Instrument Visualizer",
         "image":"Music Instrument Visualizer.png",
         "url":"https://kshitizsareen.github.io/CSC-600-Website/"
+      },
+      {
+        "title":"Internet Traffic Visualizer",
+        "image":"Cloudflare Image Sample.png",
+        "url":"https://cloudflare-general-assignment-9qf.pages.dev/"
+      },
+      {
+        "title":"Homes and Cars Visualizer",
+        "image":"Homes and Cars VIsualizer Sample.png",
+        "url":"https://main.d354wa2sl09s23.amplifyapp.com/"
       }
     ]
   }
