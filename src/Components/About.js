@@ -26,7 +26,7 @@ class About extends Component {
                 borderRadius: '10%',
                 width: '60%'
               }}
-                src="https://media-exp1.licdn.com/dms/image/C5603AQEoRN6EYpQarQ/profile-displayphoto-shrink_400_400/0/1663565566646?e=1672272000&v=beta&t=8PWhxO9pxWC90XOWxMgkzlbmsIflx56OZuWEarXsqY0"
+                src="https://media.licdn.com/dms/image/C5603AQEoRN6EYpQarQ/profile-displayphoto-shrink_800_800/0/1663565566646?e=1680134400&v=beta&t=pZIIIlApkDrPQXT87k0w78Aki7eEJLCusdkGoA8a--g"
                 alt="Nordic Giant Profile Pic"
               />
             </div>
