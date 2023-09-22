@@ -2,21 +2,21 @@
   "main": {
     "name":"Kshitiz Sareen",
     "description":"Software Engineer | CS Graduate Student | Professor of CSC-210 at SFSU",
-    "image":"Final final.jpeg",
-    "bio":"I'm a graduate student pursuing Computer Science at San Francisco State University. I have worked as a software engineer for over one year at Synoptek, mainly working with Microsoft Dynamics CRM. As a student with an outstanding GPA of 3.96, I am one of the few students selected to be a professor for Introduction To Programming at San Francisco State University. I am pursuing my research in data visualization, analytics, and machine learning.",
+    "image":"Final-final.jpeg",
+    "bio":"I'm a graduate student pursuing Computer Science at San Francisco State University. I have worked as a software engineer for over one year at Synoptek, mainly working with Microsoft Dynamics CRM. As a student with an outstanding GPA of 3.84, I am one of the few students selected to be a professor for Introduction To Programming at San Francisco State University. I am pursuing my research in data visualization, analytics, and machine learning.",
     "contactmessage":"Let's Connect!",
     "email": "kshitizsareen709@gmail.com",
     "phone": "+1 (415)-996-4289",
     "github":"https://github.com/nordicgiant2/react-nice-resume",
     "project":"https://github.com/nordicgiant2/react-nice-resume",
     "address":{
-      "street":"235 Vernon Street",
+      "street":"468 Vernon Street",
       "city":"San Francisco",
       "state":"California",
       "zip": "94132"
     },
     "website": "http://www.timbakerdev.com",
-    "resumedownload":"https://drive.google.com/file/d/1HdtKZueh0Lw_ZdaIZad6xwBEzCYPnPG8/view?usp=sharing",
+    "resumedownload":"https://csc805-data-storage-bucket.s3.us-west-1.amazonaws.com/Resume.pdf",
     "social":[
       {
         "name":"twitter",
@@ -59,20 +59,45 @@
     ],
     "work":[
       {
+        "company":"AfyaMD",
+        "title":"Software Engineering Intern",
+        "years":"May 2023 - Present",
+        "description1":"Streamlined job searches for 30+ healthcare institutions with a search system built using Next.js, ASP.NET and Elasticsearch.",
+        "description2":"Collaborated with UX designers to refine the mobile app's user interface, leading to a 20% increase in user satisfaction utilizing React Native.",
+        "description3":"Improved the hiring process by designing a communication module that handled over 300 messages daily using React Native, Apache Kafka, and Java."
+      },
+      {
+        "company":"Google Summer of Code, INCF",
+        "title":"Open-Source Developer",
+        "years":"May 2023 - Present",
+        "description1":"Developed a CSV data browser, facilitating researchers in navigating vast datasets (10,000+ records) using C#, ASP.NET, TypeScript, Angular, and PostgreSQL",
+        "description2":"Augmented API functionality by creating a file system manager and introducing 16 additional endpoints for enhanced data storage and management with C# and ASP.NET.",
+        "description3":"Deployed over five visualization tools, empowering users to derive insights from extensive datasets through Angular and D3.js."
+      },
+      {
         "company":"Synoptek",
         "title":"Software Engineer",
         "years":"Jan 2020 - July 2021",
-        "description1":"Increased profitability and customer connectivity of 6 companies by developing applications and products based on Microsoft Dynamics CRM.",
-        "description2":"Collaborated with engineers and product managers to build over 300 UI and data processing components using C#, JavaScript, and the .NET framework.",
-        "description3":"Enhanced productivity of over 15 solution engineers by building reusable CRM services, including visualizations, data processing, and data integration services."
+        "description1":"Spearheaded developing and deploying enterprise applications for six clients using Power Platform and Dynamics 365 for case management and customer service portals.",
+        "description2":"Boosted CRM efficiency by 60% through Power Platform and Dataverse/Dynamics 365, implementing business logic and solutions with custom code plug-ins, workflows, and HTML/CSS/JavaScript web resources.",
+        "description3":"Used Azure Data Factory to migrate large datasets (1TB+) to SQL Server environments and processed them with Power BI."
       },
       {
         "company":"San Francisco State University",
         "title":"Graduate Teaching Assistant, CSC 210 – Introduction to Programming",
-        "years":"Aug 2022 - Present",
+        "years":"Aug 2022 - May 2023",
         "description1":"Introduced programming concepts to a class of 50 students by teaching them the Java programming language.",
         "description2":"Increased class participation and passing rate by 30% by initiating mentorship programs for student development.",
         "description3":"Helped students practice programming by creating 10 weekly assignments, 3 class projects, 2 exams, and 5 quizzes."
+      }
+      ,
+      {
+        "company":"San Francisco State University",
+        "title":"Teaching Assistant, CSC 600 – Programming Paradigms",
+        "years":"Aug 2022 - May 2023",
+        "description1": "Boosted grading efficiency by 80% by utilizing unit tests for assignments and exams using TypeScript and Lodash.",
+        "description2": "Enhanced academic outcomes by generating performance analytics for over 50 students using Python.",
+        "description3": "Saved over 20 faculty hours each semester by automating the grading process with Bash scripting."
       }
     ],
     "ProgrammingSkills":[
@@ -160,16 +185,6 @@
   "portfolio":{
     "projects": [
       {
-        "title":"AQI Visualizer",
-        "image":"AQI Visualizer.png",
-        "url":"https://ecohacks-361600.wl.r.appspot.com/"
-      },
-      {
-        "title":"Sports News Web Application",
-        "image":"Sports News Web Application.png",
-        "url":"https://yoursports-352701.uw.r.appspot.com/"
-      },
-      {
         "title":"React-Native-Image-Filter-Android",
         "image":"reactnativeimagefilterandroid.png",
         "url":"https://www.npmjs.com/package/react-native-image-filter-android"
@@ -197,7 +212,7 @@
       {
         "title":"Homes and Cars Visualizer",
         "image":"Homes and Cars VIsualizer Sample.png",
-        "url":"https://main.d354wa2sl09s23.amplifyapp.com/"
+        "url":"https://dev5106.d2qfhl62qfb2m4.amplifyapp.com/"
       }
     ]
   }
