@@ -5,8 +5,9 @@ class About extends Component {
   render() {
     if (!this.props.data) return null;
 
+    console.log(this.props.data.image);
     const name = this.props.data.name;
-    const profilepic = "images/" + this.props.data.image;
+    const profilepic = "/images/" + this.props.data.image;
     const bio = this.props.data.bio;
     const street = this.props.data.address.street;
     const city = this.props.data.address.city;
@@ -26,7 +27,7 @@ class About extends Component {
                 borderRadius: '10%',
                 width: '60%'
               }}
-                src="https://media.licdn.com/dms/image/C5603AQEoRN6EYpQarQ/profile-displayphoto-shrink_800_800/0/1663565566646?e=1680134400&v=beta&t=pZIIIlApkDrPQXT87k0w78Aki7eEJLCusdkGoA8a--g"
+                src="https://csc805-data-storage-bucket.s3.us-west-1.amazonaws.com/Final+final.jpeg"
                 alt="Nordic Giant Profile Pic"
               />
             </div>
